@@ -4,13 +4,15 @@
  */
 package com.Elias.Acosta.arg.Security.Controller;
 
+import org.springframework.http.HttpStatus;
+
 
 public class Mensaje {
     private String mensaje;
     
     //constructores
 
-    public Mensaje() {
+    public Mensaje(String el_nombre_es_obligatorio, HttpStatus BAD_REQUEST) {
     }
 
     public Mensaje(String mensaje) {
