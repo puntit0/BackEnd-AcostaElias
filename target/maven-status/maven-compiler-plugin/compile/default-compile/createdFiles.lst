@@ -1,8 +1,11 @@
 com\Elias\Acosta\arg\Entity\Educacion.class
 com\Elias\Acosta\arg\Entity\hys.class
 com\Elias\Acosta\arg\Security\Entity\Rol.class
+com\Elias\Acosta\arg\Controller\CProyecto.class
 com\Elias\Acosta\arg\Security\Repository\iUsuarioRepository.class
 com\Elias\Acosta\arg\Controller\PersonaController.class
+com\Elias\Acosta\arg\Dto\dtoProyecto.class
+com\Elias\Acosta\arg\Entity\Proyecto.class
 com\Elias\Acosta\arg\Entity\Experiencia.class
 com\Elias\Acosta\arg\Repository\RHyS.class
 com\Elias\Acosta\arg\Security\jwt\JwtEntryPoint.class
@@ -38,3 +41,5 @@ com\Elias\Acosta\arg\Security\MainSecurity.class
 com\Elias\Acosta\arg\Controller\CHyS.class
 com\Elias\Acosta\arg\Service\SExperiencia.class
 com\Elias\Acosta\arg\Security\Repository\iRolRepository.class
+com\Elias\Acosta\arg\Service\SProyecto.class
+com\Elias\Acosta\arg\Repository\RProyecto.class
